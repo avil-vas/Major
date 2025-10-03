@@ -89,7 +89,7 @@ app.use((req,res,next)=>{
 })
 
 app.get("/",(req,res)=>{
-    res.send("working!!");
+    res.redirect("/listings");
 });
 
 // app.get("/demouser",async(req,res)=>{
